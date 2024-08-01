@@ -1,0 +1,81 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  .hero {
+    background: linear-gradient(rgba(0, 128, 0, 0.6), rgba(0, 128, 0, 0.6)), url('image.png') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  .hero h1 {
+    margin: 0;
+    font-size: 3em;
+    padding: 10px 20px;
+  }
+  .description, .form-container, .testimonials {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  .description h2, .form-container h2, .testimonials h2 {
+    color: #008000;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .description p, .testimonial p {
+    margin: 0 0 10px;
+    line-height: 1.6;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .form-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  .form-group button {
+    display: inline-block;
+    background: #008000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  .testimonials .testimonial {
+    margin-bottom: 20px;
+    border-left: 5px solid #008000;
+    padding-left: 15px;
+  }
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  footer p {
+    margin: 0;
+  }
+  
